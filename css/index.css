@@ -164,7 +164,8 @@ nav {
   background-color: #F6F6F6;
   display: block;
   text-align: center;
-  padding: 2% 0;
+  padding: 1% 0;
+  border-bottom: 1px soild #F1F1F1;
 }
 nav .title {
   font-size: 4rem;
@@ -186,6 +187,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home .intro img {
+  border-radius: 10px;
 }
 .home .intro h2 {
   padding: 15px;
