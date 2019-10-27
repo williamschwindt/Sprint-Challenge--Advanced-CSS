@@ -160,6 +160,23 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+nav {
+  background-color: #F6F6F6;
+  display: block;
+  text-align: center;
+  padding: 2% 0;
+}
+nav .title {
+  font-size: 4rem;
+  margin-bottom: 1%;
+}
+nav .nav a {
+  text-decoration: none;
+  margin: 0 1%;
+  font-size: 1.8rem;
+  font-family: #454A59;
+  color: #5E6164;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
