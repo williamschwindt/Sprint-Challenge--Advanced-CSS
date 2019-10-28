@@ -19,11 +19,20 @@ nav {
         .nav {
 
             a {
+                transition: .3s;
+                padding: .5%;
                 text-decoration: none;
                 margin: 0 1%;
                 font-size: 1.8rem;
                 font-family: @nav-font;
                 color: @main-font-color;
+
+                &:hover {
+                    transition: .3s;
+                    background-color: @main-font-color;
+                    color: white;
+
+                }
 
                 @media @phone {
                    font-size: 1.5rem; 
