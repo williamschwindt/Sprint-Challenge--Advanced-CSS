@@ -1,1 +1,49 @@
 // Navigation code here
+
+nav {
+    z-index: 100;
+    opacity: .9;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: @nav-bg;
+    display: block;
+    text-align: center;
+    padding: 1% 0;
+    .border();
+
+        .title {
+            font-size: 4rem;
+            margin-bottom: 1%;
+
+                @media @phone {
+                    font-size: 3rem;
+                }
+        }
+
+        .nav {
+
+            a {
+                transition: .3s;
+                padding: .5%;
+                text-decoration: none;
+                margin: 0 1%;
+                font-size: 1.8rem;
+                font-family: @nav-font;
+                color: @main-font-color;
+
+                &:hover {
+                    transition: .3s;
+                    background-color: @main-font-color;
+                    color: white;
+
+                }
+
+                @media @phone {
+                   font-size: 1.5rem; 
+                }
+            }
+            
+        }
+}
